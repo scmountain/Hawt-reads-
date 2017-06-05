@@ -1,25 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Displays the top 10 "hawt reads" from my other app "Url-lock-box"
 
-Things you may want to cover:
+located at LINKHERE
 
-* Ruby version
+##Setup
 
-* System dependencies
+``` $ git clone https://github.com/scmountain/Hawt-reads-.git```
+``` $ bundle ```
+``` rake db:create db:migrate ```
 
-* Configuration
+if any issues or questions arise please submit a PR with QUESTION/ISSUE in the title
+and what line it is found.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Hawt-reads-
+* Ruby version: 5.0.1
