@@ -1,8 +1,8 @@
 # README
 
-Displays the top 10 "hawt reads" from my other app "Url-lock-box"
+Displays the top 10 "hawt reads" from my other app "Url-lock-box"<br>
 
-located at LINKHERE
+located at https://url-locken-boxen.herokuapp.com <br>
 
 ##Setup
 
