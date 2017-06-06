@@ -8,10 +8,7 @@ RSpec.describe "As guest user" do
 
     visit root_path
 
-    expect(page).to have_content(link1.title)
-    expect(page).to have_content(link1.price)
-    expect(page).to have_content(link2.title)
-    expect(page).to have_content(link2.price)
-
+    expect(page).to have_content(link1.url)
+    expect(page).to have_content(link2.url)
   end
 end
