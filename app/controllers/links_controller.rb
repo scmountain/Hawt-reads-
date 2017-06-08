@@ -4,6 +4,10 @@ class LinksController < ApplicationController
     @links = Link.top_ten
   end
 
+  def show
+    @link = Link.top_link
+  end
+
   def create
     link = Link.find_or_create_by(link_params)
       link.update(views: link.views += 1)
